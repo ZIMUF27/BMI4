@@ -1,0 +1,132 @@
+[00:00:01.057] Server  WARN    ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+[00:00:01.059] Server  ERROR   ⨯ The file "./src\middleware.ts" must export a function, either as a default export or as a named "middleware" export.
+This function is what Next.js runs for every request handled by this middleware.
+
+Why this happens:
+- The file exists but doesn't export a function.
+- The export is not a function (e.g., an object or constant).
+- There's a syntax error preventing the export from being recognized.
+
+To fix it:
+- Ensure this file has either a default or "middleware" function export.
+
+Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+[00:00:01.188] Server  LOG     ✓ Ready in 905ms
+[00:00:05.099] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:05.138] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:05.509] Server  ERROR   ⨯ Error: Failed to load external module @prisma/client-2c3a283f134fdcb6: Error: Cannot find module '.prisma/client/default'
+Require stack:
+- C:\Users\Admin\Documents\trae_projects\BMI4\node_modules\@prisma\client\default.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\.next\dev\server\chunks\[root-of-the-server]__07fd47cc._.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\.next\dev\server\chunks\[turbopack]_runtime.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\.next\dev\server\app\api\auth\[...nextauth]\route.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\node_modules\next\dist\server\require.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\node_modules\next\dist\server\load-components.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\node_modules\next\dist\build\utils.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\node_modules\next\dist\build\swc\options.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\node_modules\next\dist\build\swc\index.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\node_modules\next\dist\server\config.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\node_modules\next\dist\server\next.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\node_modules\next\dist\server\lib\start-server.js
+[00:00:06.239] Server  ERROR   ⨯ Error: Failed to load external module @prisma/client-2c3a283f134fdcb6: Error: Cannot find module '.prisma/client/default'
+Require stack:
+- C:\Users\Admin\Documents\trae_projects\BMI4\node_modules\@prisma\client\default.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\.next\dev\server\chunks\[root-of-the-server]__07fd47cc._.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\.next\dev\server\chunks\[turbopack]_runtime.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\.next\dev\server\app\api\auth\[...nextauth]\route.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\node_modules\next\dist\server\require.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\node_modules\next\dist\server\load-components.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\node_modules\next\dist\build\utils.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\node_modules\next\dist\build\swc\options.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\node_modules\next\dist\build\swc\index.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\node_modules\next\dist\server\config.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\node_modules\next\dist\server\next.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\node_modules\next\dist\server\lib\start-server.js
+[00:00:06.272] Server  ERROR   ⨯ Error: Failed to load external module @prisma/client-2c3a283f134fdcb6: Error: Cannot find module '.prisma/client/default'
+Require stack:
+- C:\Users\Admin\Documents\trae_projects\BMI4\node_modules\@prisma\client\default.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\.next\dev\server\chunks\[root-of-the-server]__07fd47cc._.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\.next\dev\server\chunks\[turbopack]_runtime.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\.next\dev\server\app\api\auth\[...nextauth]\route.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\node_modules\next\dist\server\require.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\node_modules\next\dist\server\load-components.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\node_modules\next\dist\build\utils.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\node_modules\next\dist\build\swc\options.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\node_modules\next\dist\build\swc\index.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\node_modules\next\dist\server\config.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\node_modules\next\dist\server\next.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\node_modules\next\dist\server\lib\start-server.js
+[00:00:06.337] Server  ERROR   ⨯ Error: Failed to load external module @prisma/client-2c3a283f134fdcb6: Error: Cannot find module '.prisma/client/default'
+Require stack:
+- C:\Users\Admin\Documents\trae_projects\BMI4\node_modules\@prisma\client\default.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\.next\dev\server\chunks\[root-of-the-server]__07fd47cc._.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\.next\dev\server\chunks\[turbopack]_runtime.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\.next\dev\server\app\api\auth\[...nextauth]\route.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\node_modules\next\dist\server\require.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\node_modules\next\dist\server\load-components.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\node_modules\next\dist\build\utils.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\node_modules\next\dist\build\swc\options.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\node_modules\next\dist\build\swc\index.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\node_modules\next\dist\server\config.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\node_modules\next\dist\server\next.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\node_modules\next\dist\server\lib\start-server.js
+[00:00:06.341] Browser ERROR   [next-auth][error][CLIENT_FETCH_ERROR] 
+https://next-auth.js.org/errors#client_fetch_error Unexpected token '<', "<!DOCTYPE "... is not valid JSON {"error":{"message":"Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON","name":"SyntaxError","stack":"SyntaxError: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"},"message":"Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON","url":"/api/auth/session"}
+[00:00:06.370] Server  ERROR   ⨯ Error: Failed to load external module @prisma/client-2c3a283f134fdcb6: Error: Cannot find module '.prisma/client/default'
+Require stack:
+- C:\Users\Admin\Documents\trae_projects\BMI4\node_modules\@prisma\client\default.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\.next\dev\server\chunks\[root-of-the-server]__07fd47cc._.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\.next\dev\server\chunks\[turbopack]_runtime.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\.next\dev\server\app\api\auth\[...nextauth]\route.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\node_modules\next\dist\server\require.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\node_modules\next\dist\server\load-components.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\node_modules\next\dist\build\utils.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\node_modules\next\dist\build\swc\options.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\node_modules\next\dist\build\swc\index.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\node_modules\next\dist\server\config.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\node_modules\next\dist\server\next.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\node_modules\next\dist\server\lib\start-server.js
+[00:00:06.437] Server  ERROR   ⨯ Error: Failed to load external module @prisma/client-2c3a283f134fdcb6: Error: Cannot find module '.prisma/client/default'
+Require stack:
+- C:\Users\Admin\Documents\trae_projects\BMI4\node_modules\@prisma\client\default.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\.next\dev\server\chunks\[root-of-the-server]__07fd47cc._.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\.next\dev\server\chunks\[turbopack]_runtime.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\.next\dev\server\app\api\auth\[...nextauth]\route.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\node_modules\next\dist\server\require.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\node_modules\next\dist\server\load-components.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\node_modules\next\dist\build\utils.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\node_modules\next\dist\build\swc\options.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\node_modules\next\dist\build\swc\index.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\node_modules\next\dist\server\config.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\node_modules\next\dist\server\next.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\node_modules\next\dist\server\lib\start-server.js
+[00:00:07.037] Browser ERROR   [next-auth][error][CLIENT_FETCH_ERROR] 
+https://next-auth.js.org/errors#client_fetch_error Unexpected token '<', "<!DOCTYPE "... is not valid JSON {"error":{"message":"Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON","name":"SyntaxError","stack":"SyntaxError: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"},"message":"Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON","url":"/api/auth/session"}
+[00:00:07.037] Browser ERROR   [next-auth][error][CLIENT_FETCH_ERROR] 
+https://next-auth.js.org/errors#client_fetch_error Unexpected token '<', "<!DOCTYPE "... is not valid JSON {"error":{"message":"Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON","name":"SyntaxError","stack":"SyntaxError: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"},"message":"Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON","url":"/api/auth/session"}
+[00:11:35.779] Server  ERROR   ⨯ Error: Failed to load external module @prisma/client-2c3a283f134fdcb6: Error: Cannot find module '.prisma/client/default'
+Require stack:
+- C:\Users\Admin\Documents\trae_projects\BMI4\node_modules\@prisma\client\default.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\.next\dev\server\chunks\[root-of-the-server]__07fd47cc._.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\.next\dev\server\chunks\[turbopack]_runtime.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\.next\dev\server\app\api\auth\[...nextauth]\route.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\node_modules\next\dist\server\require.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\node_modules\next\dist\server\load-components.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\node_modules\next\dist\build\utils.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\node_modules\next\dist\build\swc\options.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\node_modules\next\dist\build\swc\index.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\node_modules\next\dist\server\config.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\node_modules\next\dist\server\next.js
+- C:\Users\Admin\Documents\trae_projects\BMI4\node_modules\next\dist\server\lib\start-server.js
+[00:16:00.499] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:22:25.712] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:24:12.885] Server  LOG     ✓ Compiled in 285ms
+[00:24:13.122] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:24:13.237] Browser WARN    Image with src "http://localhost:3000/vercel.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
