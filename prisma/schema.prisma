@@ -10,3 +10,21 @@ datasource db {
   provider = "postgresql"
   url      = env("DATABASE_URL")
 }
+
+model User {
+  id            Int          @id @default(autoincrement())
+  username      String       @unique
+  password_hash String
+  created_at    DateTime     @default(now())
+  records       BMI_Record[]
+}
+
+model BMI_Record {
+  id          Int      @id @default(autoincrement())
+  user_id     Int
+  weight      Float
+  height      Float
+  bmi_value   Float
+  record_date DateTime @default(now())
+  user        User     @relation(fields: [user_id], references: [id])
+}

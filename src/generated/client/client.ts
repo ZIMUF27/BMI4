@@ -44,4 +44,13 @@ export { Prisma }
 path.join(__dirname, "query_engine-windows.dll.node")
 path.join(process.cwd(), "src/generated/client/query_engine-windows.dll.node")
 
-
+/**
+ * Model User
+ * 
+ */
+export type User = Prisma.UserModel
+/**
+ * Model BMI_Record
+ * 
+ */
+export type BMI_Record = Prisma.BMI_RecordModel
