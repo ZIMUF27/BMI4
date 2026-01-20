@@ -4,6 +4,7 @@ out/
 
 # dependencies
 node_modules/
+src/generated/
 
 
 # env
