@@ -65,6 +65,9 @@ export default function LoginPage() {
           <Link href="/register" className="text-blue-500 hover:underline">
             Don't have an account? Register
           </Link>
+          <p className="mt-4 text-sm text-gray-500">
+            @ Name: Akkhaphak Password: poo2461pp
+          </p>
         </div>
       </div>
     </div>

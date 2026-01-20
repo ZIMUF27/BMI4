@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react"
 import { useSession, signOut } from "next-auth/react"
 import Link from "next/link"
+import { useRouter } from "next/navigation"
 
 interface BMIRecord {
   id: number
@@ -13,11 +14,18 @@ interface BMIRecord {
 }
 
 export default function Dashboard() {
-  const { data: session } = useSession()
+  const { data: session, status } = useSession()
+  const router = useRouter()
   const [weight, setWeight] = useState("")
   const [height, setHeight] = useState("")
   const [bmiResult, setBmiResult] = useState<number | null>(null)
   const [history, setHistory] = useState<BMIRecord[]>([])
+
+  useEffect(() => {
+    if (status === "unauthenticated") {
+      router.push("/login")
+    }
+  }, [status, router])
 
   const fetchHistory = async () => {
     const res = await fetch("/api/bmi")
@@ -71,7 +79,7 @@ export default function Dashboard() {
              <Link href="/reports" className="px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600">
                 View Reports
              </Link>
-             <button onClick={() => signOut()} className="px-4 py-2 bg-red-500 text-white rounded hover:bg-red-600">
+             <button onClick={() => signOut({ callbackUrl: '/' })} className="px-4 py-2 bg-red-500 text-white rounded hover:bg-red-600">
                 Logout
              </button>
           </div>
